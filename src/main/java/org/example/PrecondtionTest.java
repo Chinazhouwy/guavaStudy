@@ -7,11 +7,8 @@ public class PrecondtionTest {
 
     @Test
     public void test01(){
-       Preconditions.checkNotNull(null);
-//        Preconditions.checkArgument();
-//        Preconditions.checkState();
-        assert "" == null : "水水水水";
-//        Objects
+       Preconditions.checkNotNull("xxx","xxxx%s","123");
+        assert "" != null : "水水水水";
     }
 
     @Test
